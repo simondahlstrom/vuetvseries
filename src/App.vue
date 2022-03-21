@@ -215,6 +215,7 @@ export default class App extends Vue {}
 }
 body{
   font-family: 'Nunito', sans-serif;
+  background-color:red;
 }
 .btn {
   display: inline-block;
