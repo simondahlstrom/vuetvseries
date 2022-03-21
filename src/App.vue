@@ -41,7 +41,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 2,
         title: 'Star Trek: Disovery',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/star_trek_discovery',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Action','Adventure','Drama'],
@@ -50,7 +50,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 3,
         title: 'Supernatural',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/supernatural',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Drama','Fantasy','Horror'],
@@ -59,7 +59,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 4,
         title: 'Doctor Who',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/doctor_who',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Adventure','Drama','Sci-Fi'],
@@ -68,7 +68,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 5,
         title: 'Westworld',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/westworld',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Drama','Mystery','Sci-Fi'],
@@ -77,7 +77,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 6,
         title: 'Black Sails',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/black_sails',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Action','Adventure','Drama'],
@@ -86,7 +86,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 7,
         title: 'Kingdom',
-        url: '',
+        url: 'https://www.rottentomatoes.com/m/kingdom',
         class: 'Ⓢ',
         type: 'Series',
         genre: ['Action','Drama','History'],
@@ -95,7 +95,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 8,
         title: 'Penny Dreadful',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/penny-dreadful',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Drama','Fantasy','Horror'],
@@ -104,7 +104,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 9,
         title: 'Frontier',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/frontier',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Adventure','Drama','History'],
@@ -113,7 +113,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 10,
         title: 'I Saw the Devil',
-        url: '',
+        url: 'https://www.rottentomatoes.com/m/akmareul_boattda',
         class: 'Ⓐ',
         type: 'Movie',
         genre: ['Action','Drama','Crime'],
@@ -122,7 +122,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 11,
         title: 'Killjoys',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/killjoys',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Action','Adventure','Sci-Fi'],
@@ -131,7 +131,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 12,
         title: 'Taboo',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/taboo',
         class: 'Ⓐ',
         type: 'Series',
         genre: ['Drama','Mystry','Thriller'],
@@ -140,7 +140,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 13,
         title: 'Walker',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/walker',
         class: '',
         type: 'Series',
         genre: ['Action','Crime','Drama'],
@@ -149,7 +149,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 14,
         title: 'The Irregulars',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/the_irregulars',
         class: 'Ⓒ',
         type: 'Series',
         genre: ['Crime','Drama','Fantasy'],
@@ -158,7 +158,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 15,
         title: 'The Alienist',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/the_alienist',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Crime','Drama','Mystery'],
@@ -167,7 +167,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 16,
         title: 'The Expanse',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/the_expanse',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Drama','Mystery','Sci-Fi'],
@@ -176,7 +176,7 @@ import Navigation from './components/Navigation.vue';
       {
         id: 17,
         title: 'The Witcher',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/the_witcher',
         class: 'Ⓐ',
         type: 'Series',
         genre: ['Action','Adventure','Drama'],
@@ -185,10 +185,19 @@ import Navigation from './components/Navigation.vue';
       {
         id: 18,
         title: 'Altered Carbon',
-        url: '',
+        url: 'https://www.rottentomatoes.com/tv/altered_carbon',
         class: 'Ⓑ',
         type: 'Series',
         genre: ['Action','Drama','Sci-Fi'],
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      },
+      {
+        id: 19,
+        title: 'Torchwood',
+        url: 'https://www.rottentomatoes.com/tv/torchwood',
+        class: 'Ⓢ',
+        type: 'Series',
+        genre: ['Action','Drama','Mystery'],
         details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
       }
     ];
